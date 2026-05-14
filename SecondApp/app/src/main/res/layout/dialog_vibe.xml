@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="12dp"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- Sparkle header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✦ ✧ ✦ ✧ ✦"
+            android:textColor="#FF69B4"
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What's your vibe? 💖"
+            android:textColor="#4A0025"
+            android:textSize="26sp"
+            android:fontFamily="@font/vt323"
+            android:gravity="center"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Instructions -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pick your current feeling!\n\n😄 Happy – feel-good bangers\n😢 Sad – let it out\n😍 Crush – butterflies\n😤 Angry – let it rip\n🦋 Nostalgic – total throwback\n\nTap 💖 to save your faves!"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:lineSpacingExtra="4dp"/>
+
+        <!-- Sparkle footer -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✧ ✦ ✧ ✦ ✧"
+            android:textColor="#FF69B4"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Got it button -->
+        <Button
+            android:id="@+id/btn_dialog_gotit"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="LET'S GO! 🚀"
+            android:textSize="18sp"
+            android:fontFamily="@font/vt323"
+            android:backgroundTint="#FF69B4"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

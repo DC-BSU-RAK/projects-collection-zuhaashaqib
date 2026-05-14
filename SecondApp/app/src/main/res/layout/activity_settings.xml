@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?android:attr/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:background="?attr/colorPrimary"
+        android:gravity="center_vertical"
+        android:paddingStart="8dp">
+
+        <Button
+            android:id="@+id/btn_settings_back"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="← Back"
+            android:textSize="14sp"
+            android:fontFamily="@font/vt323"
+            android:backgroundTint="?attr/colorOnPrimary"
+            android:textColor="?attr/colorPrimary"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="⚙ Settings"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="22sp"
+            android:fontFamily="@font/vt323"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_settings_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Screen name: ..."
+                android:textColor="?attr/colorOnBackground"
+                android:textSize="20sp"
+                android:fontFamily="@font/vt323"
+                android:layout_marginBottom="32dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🎨 Choose Your Vibe Theme:"
+                android:textColor="?attr/colorOnBackground"
+                android:textSize="22sp"
+                android:fontFamily="@font/vt323"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/btn_theme_pink"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="💗 Bubblegum Pink"
+                android:textSize="18sp"
+                android:fontFamily="@font/vt323"
+                android:backgroundTint="#FF69B4"
+                android:textColor="#4A0025"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/btn_theme_blue"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="💙 Electric Blue"
+                android:textSize="18sp"
+                android:fontFamily="@font/vt323"
+                android:backgroundTint="#00BFFF"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/btn_theme_green"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="💚 Lime Green"
+                android:textSize="18sp"
+                android:fontFamily="@font/vt323"
+                android:backgroundTint="#CCFF00"
+                android:textColor="#003300"
+                android:layout_marginBottom="32dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔊 Sound Effects:"
+                android:textColor="?attr/colorOnBackground"
+                android:textSize="22sp"
+                android:fontFamily="@font/vt323"
+                android:layout_marginBottom="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="32dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Enable button click sounds"
+                    android:textColor="?attr/colorOnBackground"
+                    android:textSize="16sp"/>
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_sound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_change_name"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Change Screen Name"
+                android:textSize="16sp"
+                android:fontFamily="@font/vt323"
+                android:backgroundTint="?attr/colorPrimary"
+                android:textColor="?attr/colorOnPrimary"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Used for mood button card color (differs slightly per theme) -->
+    <attr name="colorMoodCard" format="color"/>
+    <!-- Secondary text color -->
+    <attr name="colorSecondaryText" format="color"/>
+    <!-- General secondary color (re-declared to be safe) -->
+    <attr name="colorSecondary" format="color"/>
+    <!-- Accent color -->
+    <attr name="colorAccent" format="color"/>
+</resources>

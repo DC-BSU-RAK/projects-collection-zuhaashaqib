@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ── BUBBLEGUM PINK palette ────────────────────────── -->
+    <color name="pink_background">#FFB7C5</color>   <!-- Cherry Blossom -->
+    <color name="pink_primary">#FF69B4</color>       <!-- Hot Pink -->
+    <color name="pink_on_primary">#FFFFFF</color>
+    <color name="pink_text">#4A0025</color>           <!-- Deep Berry -->
+    <color name="pink_accent">#FFC0CB</color>         <!-- Pink -->
+    <color name="pink_surface">#FFD6E0</color>
+    <color name="pink_secondary">#C2185B</color>
+
+    <!-- ── ELECTRIC BLUE palette ────────────────────────── -->
+    <color name="blue_background">#00BFFF</color>    <!-- Deep Sky Blue -->
+    <color name="blue_primary">#0000CD</color>        <!-- Medium Blue -->
+    <color name="blue_on_primary">#FFFFFF</color>
+    <color name="blue_text">#FFFFFF</color>
+    <color name="blue_accent">#87CEEB</color>         <!-- Baby Blue -->
+    <color name="blue_surface">#1565C0</color>
+    <color name="blue_secondary">#B3E5FC</color>
+
+    <!-- ── LIME GREEN palette ────────────────────────────── -->
+    <color name="green_background">#CCFF00</color>   <!-- Neon Lime -->
+    <color name="green_primary">#32CD32</color>       <!-- Lime Green -->
+    <color name="green_on_primary">#003300</color>
+    <color name="green_text">#003300</color>          <!-- Dark Green -->
+    <color name="green_accent">#ADFF2F</color>        <!-- Green Yellow -->
+    <color name="green_surface">#B2FF59</color>
+    <color name="green_secondary">#388E3C</color>
+
+    <!-- ── Splash screen (fixed dark purple) ────────────── -->
+    <color name="splash_bg">#1A0033</color>
+    <color name="splash_text">#FF69B4</color>
+    <color name="splash_loading">#ADFF2F</color>
+
+    <!-- ── YouTube red ───────────────────────────────────── -->
+    <color name="youtube_red">#FF0000</color>
+
+    <!-- Default fallback (used by base theme) -->
+    <color name="default_primary">#FF69B4</color>
+    <color name="default_background">#FFB7C5</color>
+
+</resources>

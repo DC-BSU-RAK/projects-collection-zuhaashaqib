@@ -1,0 +1,29 @@
+<resources>
+    <style name="Theme.MoodFood" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#FF6B35</item>
+        <item name="colorPrimaryVariant">#FF3D9A</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/bg_peach</item>
+        <item name="android:statusBarColor">#FFF0EC</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.MoodFood.Splash" parent="Theme.MoodFood">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <!-- Only one instance of MoodDialog -->
+    <style name="MoodDialog" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackground">@color/card_white</item>
+        <item name="shapeAppearanceMediumComponent">@style/DialogShape</item>
+    </style>
+
+    <!-- Only one instance of DialogShape -->
+    <style name="DialogShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+</resources>

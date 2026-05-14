@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/card_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✨ How It Works"
+            android:textColor="@color/accent_yellow"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Enter your mood, pick what matters today, and hit CALCULATE to find your flavour destiny!"
+            android:textColor="#2D2D2D"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.5"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="😴  9 Moods to choose from"
+            android:textColor="@color/accent_orange"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="⚡  4 Conditions to filter by"
+            android:textColor="@color/accent_green"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="🍽️  Unique food combos revealed!"
+            android:textColor="@color/accent_pink"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="STEP 1 → Tap a mood button\nSTEP 2 → Tap a condition\nSTEP 3 → Hit CALCULATE ✨"
+            android:textColor="#FF6B35"
+            android:textSize="13sp"
+            android:lineSpacingMultiplier="1.8"/>
+
+    </LinearLayout>
+</ScrollView>

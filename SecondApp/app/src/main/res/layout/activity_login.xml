@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="?android:attr/colorBackground"
+    android:padding="32dp">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER YOUR\nSCREEN NAME"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="36sp"
+        android:fontFamily="@font/vt323"
+        android:gravity="center"
+        android:letterSpacing="0.05"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Sparkles decoration -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✦ ✧ ✦ ✧ ✦"
+        android:textColor="?attr/colorAccent"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Name input field -->
+    <EditText
+        android:id="@+id/et_screen_name"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="&lt;screen_name&gt;"
+        android:textColorHint="?attr/colorSecondary"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="18sp"
+        android:fontFamily="@font/vt323"
+        android:background="@drawable/bg_input_field"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:imeOptions="actionDone"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- LET'S GO button -->
+    <Button
+        android:id="@+id/btn_lets_go"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="LET'S GO! 🚀"
+        android:textSize="22sp"
+        android:fontFamily="@font/vt323"
+        android:backgroundTint="?attr/colorPrimary"
+        android:textColor="?attr/colorOnPrimary"
+        android:letterSpacing="0.08"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Y2K decorative bottom text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎵 powered by Y2K vibes 🎵"
+        android:textColor="?attr/colorSecondary"
+        android:textSize="14sp"
+        android:fontFamily="@font/pacifico"/>
+
+</LinearLayout>
